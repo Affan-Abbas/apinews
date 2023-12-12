@@ -11,7 +11,7 @@ class AllNews extends Component
   }
 
   componentDidMount() {
-    const url = `https://newsdata.io/api/1/news?apikey=pub_34610156f57ef40f4385bbb4bcef50bab696e`;
+    const url = `https://newsdata.io/api/1/news?apikey=`;
 
     fetch(url)
       .then((response) => {
